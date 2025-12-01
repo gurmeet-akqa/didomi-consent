@@ -7,6 +7,7 @@ A beautiful, modern single-page application built with React.js and Vite, ready 
 - ⚡ **Fast & Lightweight** - Built with Vite for lightning-fast development
 - 🎨 **Modern Design** - Beautiful, responsive UI with a clean aesthetic
 - 🚀 **Easy Deployment** - Ready to deploy on Vercel with zero configuration
+- 🍪 **Didomi CMP Integration** - Consent Management Platform with customizable styling
 
 ## Getting Started
 
@@ -127,14 +128,20 @@ The `vercel.json` file is included for optimal configuration. Vercel will automa
 ```
 .
 ├── src/
-│   ├── App.jsx          # Main application component
-│   ├── App.css          # Application styles
-│   ├── main.jsx         # Application entry point
-│   └── index.css        # Global styles
-├── index.html           # HTML template
-├── vite.config.js       # Vite configuration
-├── vercel.json          # Vercel deployment configuration
-└── package.json         # Project dependencies
+│   ├── App.jsx              # Main application component (includes Didomi SDK)
+│   ├── App.css              # Application styles
+│   ├── main.jsx             # Application entry point
+│   ├── index.css            # Global styles
+│   ├── config/
+│   │   └── didomi.config.js # Didomi SDK configuration
+│   └── styles/
+│       └── didomi-custom.css # Custom Didomi consent banner styles
+├── index.html               # HTML template
+├── vite.config.js           # Vite configuration
+├── vercel.json              # Vercel deployment configuration
+├── package.json             # Project dependencies
+├── DIDOMI_SETUP.md          # Detailed Didomi setup guide
+└── .env                     # Environment variables (create this file)
 ```
 
 ## Technologies Used
@@ -142,6 +149,20 @@ The `vercel.json` file is included for optimal configuration. Vercel will automa
 - **React** - UI library
 - **Vite** - Build tool and dev server
 - **CSS3** - Modern styling with CSS variables
+- **Didomi** - Consent Management Platform (CMP) for GDPR compliance
+
+## Didomi Setup
+
+This application includes Didomi SDK for consent management. To set it up:
+
+1. Get your API key from [Didomi Dashboard](https://dashboard.didomi.io/)
+2. Create a `.env` file in the root directory:
+   ```
+   VITE_DIDOMI_API_KEY=your_api_key_here
+   ```
+3. Customize the consent banner styling in `src/styles/didomi-custom.css`
+
+For detailed setup instructions, see [DIDOMI_SETUP.md](./DIDOMI_SETUP.md)
 
 ## License
 

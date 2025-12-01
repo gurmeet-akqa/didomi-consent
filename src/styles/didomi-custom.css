@@ -1,0 +1,403 @@
+/**
+ * Didomi Custom Styles - Mobile First Approach
+ * 
+ * This CSS file contains custom styling for Didomi consent notice and preferences panel.
+ * You can copy the entire contents of this file to Didomi's Console under:
+ * Settings > Customization > CSS
+ * 
+ * Mobile-First Design: Styles are written for mobile devices first,
+ * then enhanced for larger screens using min-width media queries.
+ */
+
+/* ============================================
+   BASE MOBILE STYLES (Default - Mobile First)
+   ============================================ */
+
+/* Main Popup/Banner Container - Mobile */
+.didomi-popup,
+.didomi-notice,
+.didomi-banner {
+  /* Add your styles here */
+}
+
+/* Overlay/Backdrop for centered popup */
+.didomi-popup-backdrop,
+.didomi-notice-backdrop,
+.didomi-banner-backdrop {
+  /* Add your styles here */
+}
+
+/* Ensure popup container is centered */
+#didomi-popup,
+#didomi-notice,
+#didomi-banner {
+  /* Add your styles here */
+}
+
+/* Additional selectors for Didomi's various container classes */
+.didomi-popup-container,
+.didomi-notice-container,
+.didomi-banner-container {
+  /* Add your styles here */
+}
+
+/* Overlay wrapper */
+.didomi-popup-wrapper,
+.didomi-notice-wrapper,
+.didomi-banner-wrapper {
+  /* Add your styles here */
+}
+
+/* Ensure the popup itself is centered within wrapper */
+.didomi-popup-wrapper > .didomi-popup,
+.didomi-notice-wrapper > .didomi-notice,
+.didomi-banner-wrapper > .didomi-banner {
+  /* Add your styles here */
+}
+
+/* Banner/Popup Background - Mobile */
+.didomi-popup-view,
+.didomi-notice-view,
+.didomi-banner-view {
+  /* Add your styles here */
+}
+
+/* Text Content - Mobile */
+.didomi-popup-content,
+.didomi-notice-content,
+.didomi-banner-content {
+  /* Add your styles here */
+}
+
+.didomi-popup-title,
+.didomi-notice-title,
+.didomi-banner-title {
+  /* Add your styles here */
+}
+
+.didomi-popup-description,
+.didomi-notice-description,
+.didomi-banner-description {
+  /* Add your styles here */
+}
+
+/* Buttons Container - Mobile (Stacked) */
+.didomi-popup-actions,
+.didomi-notice-actions,
+.didomi-banner-actions {
+  /* Add your styles here */
+}
+
+/* Primary Button (Accept/Agree) - Mobile */
+.didomi-button-highlight,
+.didomi-button.didomi-button-highlight {
+  /* Add your styles here */
+}
+
+.didomi-button-highlight:hover,
+.didomi-button.didomi-button-highlight:hover {
+  /* Add your styles here */
+}
+
+.didomi-button-highlight:active,
+.didomi-button.didomi-button-highlight:active {
+  /* Add your styles here */
+}
+
+/* Secondary Button (Reject/Decline) - Mobile */
+.didomi-button-regular,
+.didomi-button.didomi-button-regular {
+  /* Add your styles here */
+}
+
+.didomi-button-regular:hover,
+.didomi-button.didomi-button-regular:hover {
+  /* Add your styles here */
+}
+
+.didomi-button-regular:active,
+.didomi-button.didomi-button-regular:active {
+  /* Add your styles here */
+}
+
+/* Link Buttons - Mobile */
+.didomi-button-link {
+  /* Add your styles here */
+}
+
+.didomi-button-link:hover {
+  /* Add your styles here */
+}
+
+/* Preferences Panel - Mobile */
+.didomi-popup-preferences,
+.didomi-notice-preferences {
+  /* Add your styles here */
+}
+
+.didomi-popup-preferences-title,
+.didomi-notice-preferences-title {
+  /* Add your styles here */
+}
+
+/* Toggle Switches */
+.didomi-switch {
+  /* Add your styles here */
+}
+
+.didomi-switch-input:checked + .didomi-switch-slider {
+  /* Add your styles here */
+}
+
+/* Close Button - Mobile */
+.didomi-popup-close,
+.didomi-notice-close {
+  /* Add your styles here */
+}
+
+.didomi-popup-close:hover,
+.didomi-notice-close:hover {
+  /* Add your styles here */
+}
+
+/* Consent Form Elements - Mobile */
+.didomi-popup-preferences .didomi-popup-preferences-group,
+.didomi-notice-preferences .didomi-notice-preferences-group {
+  /* Add your styles here */
+}
+
+.didomi-popup-preferences .didomi-popup-preferences-group:last-child,
+.didomi-notice-preferences .didomi-notice-preferences-group:last-child {
+  /* Add your styles here */
+}
+
+.didomi-popup-preferences-group-title,
+.didomi-notice-preferences-group-title {
+  /* Add your styles here */
+}
+
+.didomi-popup-preferences-group-description,
+.didomi-notice-preferences-group-description {
+  /* Add your styles here */
+}
+
+/* Vendor List - Mobile */
+.didomi-popup-preferences-vendors,
+.didomi-notice-preferences-vendors {
+  /* Add your styles here */
+}
+
+.didomi-popup-preferences-vendor,
+.didomi-notice-preferences-vendor {
+  /* Add your styles here */
+}
+
+/* ============================================
+   TABLET STYLES (min-width: 481px)
+   ============================================ */
+@media (min-width: 481px) {
+  .didomi-popup,
+  .didomi-notice,
+  .didomi-banner {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-view,
+  .didomi-notice-view,
+  .didomi-banner-view {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-title,
+  .didomi-notice-title,
+  .didomi-banner-title {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-description,
+  .didomi-notice-description,
+  .didomi-banner-description {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-actions,
+  .didomi-notice-actions,
+  .didomi-banner-actions {
+    /* Add your styles here */
+  }
+
+  .didomi-button-highlight,
+  .didomi-button.didomi-button-highlight,
+  .didomi-button-regular,
+  .didomi-button.didomi-button-regular {
+    /* Add your styles here */
+  }
+
+  .didomi-button-link {
+    /* Add your styles here */
+  }
+}
+
+/* ============================================
+   DESKTOP STYLES (min-width: 769px)
+   ============================================ */
+@media (min-width: 769px) {
+  .didomi-popup,
+  .didomi-notice,
+  .didomi-banner {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-view,
+  .didomi-notice-view,
+  .didomi-banner-view {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-title,
+  .didomi-notice-title,
+  .didomi-banner-title {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-description,
+  .didomi-notice-description,
+  .didomi-banner-description {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-content,
+  .didomi-notice-content,
+  .didomi-banner-content {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-actions,
+  .didomi-notice-actions,
+  .didomi-banner-actions {
+    /* Add your styles here */
+  }
+
+  .didomi-button-highlight,
+  .didomi-button.didomi-button-highlight,
+  .didomi-button-regular,
+  .didomi-button.didomi-button-regular {
+    /* Add your styles here */
+  }
+
+  .didomi-button-link {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-preferences,
+  .didomi-notice-preferences {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-preferences-title,
+  .didomi-notice-preferences-title {
+    /* Add your styles here */
+  }
+
+  .didomi-popup-preferences-group-title,
+  .didomi-notice-preferences-group-title {
+    /* Add your styles here */
+  }
+}
+
+/* ============================================
+   LARGE DESKTOP STYLES (min-width: 1025px)
+   ============================================ */
+@media (min-width: 1025px) {
+  .didomi-popup,
+  .didomi-notice,
+  .didomi-banner {
+    /* Add your styles here */
+  }
+}
+
+/* ============================================
+   THEME VARIANTS
+   ============================================ */
+
+/* Dark Theme Variant */
+.didomi-theme-dark .didomi-popup-view,
+.didomi-theme-dark .didomi-notice-view {
+  /* Add your styles here */
+}
+
+.didomi-theme-dark .didomi-popup-title,
+.didomi-theme-dark .didomi-notice-title {
+  /* Add your styles here */
+}
+
+.didomi-theme-dark .didomi-button-highlight {
+  /* Add your styles here */
+}
+
+/* Light Theme Variant */
+.didomi-theme-light .didomi-popup-view,
+.didomi-theme-light .didomi-notice-view {
+  /* Add your styles here */
+}
+
+.didomi-theme-light .didomi-popup-title,
+.didomi-theme-light .didomi-notice-title {
+  /* Add your styles here */
+}
+
+.didomi-theme-light .didomi-popup-description,
+.didomi-theme-light .didomi-notice-description {
+  /* Add your styles here */
+}
+
+.didomi-theme-light .didomi-button-highlight {
+  /* Add your styles here */
+}
+
+.didomi-theme-light .didomi-button-regular {
+  /* Add your styles here */
+}
+
+/* ============================================
+   ADDITIONAL DIDOMI HOST SELECTORS
+   ============================================ */
+#didomi-host #didomi-popup.didomi-popup-backdrop {
+  /* Add your styles here */
+}
+
+/* Ensure proper stacking context */
+#didomi-host {
+  /* Add your styles here */
+}
+
+/* Accessibility improvements */
+.didomi-button:focus,
+.didomi-button-highlight:focus,
+.didomi-button-regular:focus,
+.didomi-button-link:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+/* Smooth transitions for all interactive elements */
+.didomi-popup,
+.didomi-notice,
+.didomi-banner,
+.didomi-popup-view,
+.didomi-notice-view,
+.didomi-banner-view {
+  transition: all 0.3s ease;
+}
+
+/* Print styles - hide consent banner when printing */
+@media print {
+  .didomi-popup,
+  .didomi-notice,
+  .didomi-banner,
+  .didomi-popup-backdrop,
+  .didomi-notice-backdrop,
+  .didomi-banner-backdrop {
+    display: none !important;
+  }
+}
