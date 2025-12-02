@@ -1,0 +1,27 @@
+{
+  "notice": {
+    "content": {
+      "html": {
+        "en": "<div class=\"custom-notice-wrapper\"><div class=\"custom-notice-header\"><h2 class=\"custom-notice-title\">Cookie Preferences</h2></div><div class=\"custom-notice-body\"><p class=\"custom-notice-description\">We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.</p></div><div class=\"custom-notice-footer\"><button class=\"didomi-button-highlight\" data-didomi-action=\"accept\">Accept All</button><button class=\"didomi-button-regular\" data-didomi-action=\"reject\">Reject All</button><button class=\"didomi-button-link\" data-didomi-action=\"customize\">Customize</button></div></div>"
+      }
+    },
+    "buttons": {
+      "accept": {
+        "label": {
+          "en": "Accept All"
+        }
+      },
+      "reject": {
+        "label": {
+          "en": "Reject All"
+        }
+      },
+      "customize": {
+        "label": {
+          "en": "Customize Preferences"
+        }
+      }
+    }
+  }
+}
+
